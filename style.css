@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+}
+
+/* Background image */
+.page{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Transparent Box */
+.box{
+  width: 62%;
+  margin-top: 3%;
+  margin-left: 19%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+/* Logo */
+header img{
+  width: 20%;
+  margin-left: 42%;
+  margin-top: 5%;
+}
+
+/* Title */
+header h1{
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 1%;
+  color: #00EA0D;
+}
+
+/* Link */
+.link{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding: 0.7%;
+  text-align: center;
+  background-color: #00EA0D;
+}
+
+/* Models */
+.model{
+  margin-left: 10%;
+  margin-top: 3%;
+  font-size: 20px;
+  color: White;
+}
+
+/* Position info */
+.info{
+  margin-left: 10%;
+  color: White;
+}
+
+/* charge info */
+#charge1{
+  width: 30%;
+  margin-left: 10%;
+  border: 12px solid Orange;
+  border-radius: 5px;
+}
+
+#charge2{
+  width: 50%;
+  margin-left: 10%;
+  border: 12px solid Green;
+  border-radius: 5px;
+}
+
+#charge3{
+  width: 10%;
+  margin-left: 10%;
+  border: 12px solid Red;
+  border-radius: 5px;
+}
